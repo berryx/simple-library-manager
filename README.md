@@ -12,9 +12,9 @@
   * **Change** book status
 
 ### **Tools**
-  *PHPStorm
-  *Git and Github
-  *Webpack
+  * PHPStorm
+  * Git and Github
+  * Webpack
 
 ### **Third party code**
   * [Google Fonts: Poppins](https://fonts.google.com/specimen/Poppins)
