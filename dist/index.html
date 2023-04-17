@@ -11,7 +11,7 @@
 
 <header>
 	<h1>My Library</h1>
-	<button id="btn-add-book" type="button">Add Book</button>
+	<button id="btn-new-book" type="button">Add Book</button>
 </header>
 
 <main>
@@ -25,12 +25,11 @@
 	<div class="modal">
 		<h2>Add a new book</h2>
 			<form id="modalForm">
-				<label><input type="text" name="title" id="title" placeholder="Title"></label>
-				<label><input type="text" name="author" id="author" placeholder="Author"></label>
-				<label><input type="text" name="pages" id="pages" placeholder="Pages"></label>
+				<label><input class="inputField" type="text" name="title" id="title" placeholder="Title"  maxlength="100" required></label>
+				<label><input class="inputField" type="text" name="author" id="author" placeholder="Author"  maxlength="100" required></label>
+				<label><input class="inputField" type="number" name="pages" id="pages" placeholder="Pages"  max="10000" required></label>
 				<label for="read"><input type="checkbox" name="read" id="read" placeholder="Pages">Have you read it ?</label>
 				<button type="submit" id="addBookModalBtn">Submit</button>
-				<button type="button" id="test">Submit</button>
 			</form>
 	</div>
 </div>
