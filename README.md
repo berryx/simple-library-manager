@@ -17,4 +17,4 @@
   *Webpack
 
 ### **Third party code**
-  *[Google Fonts: Poppins](https://fonts.google.com/specimen/Poppins)
+  * [Google Fonts: Poppins](https://fonts.google.com/specimen/Poppins)
